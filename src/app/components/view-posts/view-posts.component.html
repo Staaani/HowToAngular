@@ -1,0 +1,8 @@
+<h1>View Posts</h1>
+
+<div *ngIf="posts?.length">
+  <div *ngFor="let post of posts">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+  </div>
+</div>

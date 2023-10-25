@@ -7,12 +7,14 @@ import { CreatePostComponent } from './components/create-post/create-post.compon
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ViewPostsComponent } from './components/view-posts/view-posts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreatePostComponent,
-    NavbarComponent
+    NavbarComponent,
+    ViewPostsComponent
   ],
   imports: [
     BrowserModule,

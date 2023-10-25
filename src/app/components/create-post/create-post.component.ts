@@ -17,9 +17,10 @@ export class CreatePostComponent {
     this.postService.createPost({ title: this.title, content: this.content })
       .subscribe(response => {
         console.log('Post erfolgreich erstellt:', response);
-        // Zurücksetzen der Formulardaten
         this.title = '';
         this.content = '';
       });
   }
+
+
 }
